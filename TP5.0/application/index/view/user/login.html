@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <style type="text/css">
+        div{
+            height:500px;
+            width:300px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>登录界面</h1>
+    <form method="post" class="form" action="{:url('index/rigest/login')}">
+        姓名: <input type="text" class="text" name="username"/><br>
+        密码:<input type="password" class="text" name="password"/><br>
+        <!--邮箱:<input type="text"  class="text" name="email" /><br>-->
+        <input type="submit" name="btn" value="登录">
+    </form>
+    <a href="{:url('index/rigest/rigest')}">注册</a>
+</div>
+
+</body>
+</html>

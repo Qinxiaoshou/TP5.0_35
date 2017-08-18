@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors HuiZhou (103121929@qq.com)
+ * @date    2017-08-14 10:42:40
+ * @version $Id$
+ */
+/*关于我和blog的据界面样式*/
+
+.change{
+	line-height: 40px;
+}
+
+
+
+.addred{
+	color:  #c05b4d;
+}
